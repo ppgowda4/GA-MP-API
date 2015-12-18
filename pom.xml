@@ -8,7 +8,7 @@
   
   <name>GWA-Java-API</name>
    <url>https://github.com/punithgowdap/GWA-Java-api</url>
-   <description>A interface/API for java based application to google web analytics (Measurement Protocol)</description>
+   <description>A interface/Java API for java based applications to connect google web analytics (Measurement Protocol).</description>
    <inceptionYear>Dec 2015</inceptionYear>
    <organization>
       <url></url>
