@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ppgfalcon</groupId>
   <artifactId>GWA-Java-API</artifactId>
-  <version>0.0.1-SNAPSHOT</version> 
+  <version>1.0.0-SNAPSHOT</version> 
   <packaging>jar</packaging>
   
   <name>GWA-Java-API</name>
