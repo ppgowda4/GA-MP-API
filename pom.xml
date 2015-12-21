@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ppgfalcon</groupId>
-  <artifactId>GWA-Java-API</artifactId>
-  <version>1.0.0-SNAPSHOT</version> 
+  <artifactId>GA-MP-API</artifactId>
+  <version>1.0.1-SNAPSHOT</version> 
   <packaging>jar</packaging>
   
-  <name>GWA-Java-API</name>
-   <url>https://github.com/punithgowdap/GWA-Java-api</url>
+  <name>GA-MP-API</name>
+   <url>https://github.com/punithgowdap/GA-MP-API</url>
    <description>A interface/Java API for java based applications to connect google web analytics (Measurement Protocol).</description>
    <inceptionYear>Dec 2015</inceptionYear>
    <organization>
@@ -15,14 +15,14 @@
       <name>PPG</name>
    </organization>
    <scm>
-      <url>https://github.com/punithgowdap/GWA-Java-api</url>
-      <connection>scm:git:git@github.com:punithgowdap/GWA-Java-api</connection>
-      <developerConnection>scm:git:git@github.com:punithgowdap/GWA-Java-api</developerConnection>
+      <url>https://github.com/punithgowdap/GA-MP-API</url>
+      <connection>scm:git:git@github.com:punithgowdap/GA-MP-API</connection>
+      <developerConnection>scm:git:git@github.com:punithgowdap/GA-MP-API</developerConnection>
       <tag></tag>
    </scm>
    <issueManagement>
       <system>github.com</system>
-      <url>https://github.com/punithgowdap/GWA-Java-api/issues</url>
+      <url>https://github.com/punithgowdap/GA-MP-API/issues</url>
    </issueManagement>
    <developers>
       <developer>
