@@ -96,6 +96,16 @@ public enum GoogleAnalyticsParameter {
 	ITEM_CODE("ic", new String[] {"item"}, 500),
 	ITEM_CATEGORY("iv", new String[] {"item"}, 500),
 	CURRENCY_CODE("cu", new String[] {"transaction", "item"}, 10),
+	
+	//Enhanced E-Commerce Tracking
+	
+	//Measurement Protocol Promotion
+	PROMOTION("promo"),
+	PROMOTION_ACTION("promoa", new String[] {"click","promo"}, 500),
+	PROMOTION_ID("id", new String[] {"promo"}, 500),
+	PROMOTION_NAME("nm", new String[] {"promo"}, 500),
+	PROMOTION_CREATIVE("cr", new String[] {"promo"}, 500),
+	PROMOTION_POSITION("ps", new String[] {"promo"}, 500),
 
 	//Social Interactions
 	SOCIAL_NETWORK("sn", new String[] {"social"}, 50),
