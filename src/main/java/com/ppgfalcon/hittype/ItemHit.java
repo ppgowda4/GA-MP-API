@@ -35,6 +35,18 @@ public class ItemHit extends GoogleAnalyticsRequest<ItemHit> {
 	public ItemHit() {
 		super("item");
 	}
+	
+	public ItemHit(String txId, String itemName, String itemCode, String itemCategory, 
+							String currencyCode, int itemQuantity, Double itemPrice) {
+		super("item");
+		txId(txId);
+		itemName(itemName);
+		itemCode(itemCode);
+		itemCategory(itemCategory);
+		itemPrice(itemPrice);
+		itemQuantity(itemQuantity);
+		currencyCode(currencyCode);
+	}
 
 	/**
 	 * <div class="ind">
