@@ -90,12 +90,12 @@ public class GoogleAnalytics {
 		this(config, new DefaultRequest().trackingId(trackingId));
 	}
 
-	public GoogleAnalytics(String trackingId, boolean isMobileApp, String appName, String appVersion) {
-		this(new GoogleAnalyticsConfig(), trackingId, isMobileApp, appName, appVersion);
+	public GoogleAnalytics(String trackingId, String clientId, boolean isMobileApp, String appName, String appVersion) {
+		this(new GoogleAnalyticsConfig(), trackingId, clientId, isMobileApp, appName, appVersion);
 	}
 
-	public GoogleAnalytics(GoogleAnalyticsConfig config, String trackingId, boolean isMobileApp, String appName, String appVersion) {
-		this(config, new DefaultRequest(null, trackingId, isMobileApp, appName, appVersion));
+	public GoogleAnalytics(GoogleAnalyticsConfig config, String trackingId, String clientId, boolean isMobileApp, String appName, String appVersion) {
+		this(config, new DefaultRequest(null, trackingId, clientId, isMobileApp, appName, appVersion));
 	}
 
 	public GoogleAnalytics(GoogleAnalyticsConfig config, DefaultRequest defaultRequest) {
