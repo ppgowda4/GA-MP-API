@@ -59,20 +59,24 @@ public class DefaultRequest extends GoogleAnalyticsRequest<DefaultRequest>{
 	private final static String DEFAULT_CLIENT_ID = UUID.randomUUID().toString();
 
 	public DefaultRequest() {
-		this(null, null, false, null, null);
+		this(null, null, null, false, null, null);
 	}
 
 	public DefaultRequest(String hitType) {
-		this(hitType, null, false, null, null);
+		this(hitType, null, null, false, null, null);
 	}
 
-	public DefaultRequest(String hitType, String trackingId, boolean isMobileApp, String appName, String appVersion) {
+	public DefaultRequest(String hitType, String trackingId, String clientId, boolean isMobileApp, String appName, String appVersion) {
 		hitType(isEmpty(hitType)?(isMobileApp) ? "screenview":"pageview":hitType);
 		trackingId(trackingId);
 		applicationName(appName);
 		applicationVersion(appVersion);
-
-		clientId(DEFAULT_CLIENT_ID);
+		if(clientId != null) {
+			clientId(clientId);
+		} else {
+			clientId(DEFAULT_CLIENT_ID);
+		}
+		
 	}
 
 	/**

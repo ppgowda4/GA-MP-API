@@ -23,7 +23,7 @@ public class GoogleAnalyticsTest {
 
 	@BeforeClass
 	public static void setup() {
-		ga = new GoogleAnalytics("UA-71596676-1", true, "Junit Test", "1.0.0");
+		ga = new GoogleAnalytics("UA-71596676-1", null, true, "Junit Test", "1.0.0");
 		System.out.println("Creating Google Analytis Object");
 	}
 
